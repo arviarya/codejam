@@ -6,6 +6,29 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ Problem given in Google Code jam @  2010 Qualification Round
+ Given a list of space separated words, reverse the order of the words. 
+ Each line of text contains L letters and W words. 
+ A line will only consist of letters and space characters.
+ There will be exactly one space character between each pair of consecutive words.
+ 
+ Input data:
+ First line of input - Enter a 'numer' indicating number of rows to be entered for test
+ Second onwards Line input - Provide number of lines in input to satisfy 'count' given in line 1.
+ 
+ Ex:
+ line 1: 2
+ this is a test
+ we are trying well
+ 
+ 
+ Output:
+ test a is this
+ well trying are we
+ 
+ */
+ 
 public class ReverseWords {
 
 	public static void main(String[] args) {
@@ -37,6 +60,7 @@ public class ReverseWords {
 
 	}
 
+    // Read input data
 	private static String getInput() {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String input = null;
